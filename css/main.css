@@ -106,6 +106,7 @@ h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
+    
 }
 h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
@@ -118,6 +119,7 @@ h1, .h01 {
 	font-size: 3.1rem;
 	line-height: 1.355;
 	letter-spacing: -.1rem;
+    
 }
 @media only screen and (max-width:600px) {
 	h1, .h01 {
@@ -1484,6 +1486,7 @@ header .logo a {
 	}
 	.intro-social {
 		font-size: 2.4rem;
+        bottom: 1.2em;
 	}
 }
 

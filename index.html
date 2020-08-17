@@ -26,6 +26,30 @@
    ================================================== -->   
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
+    <style>.wavy {
+  position: relative;
+  -webkit-box-reflect: below -12px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+.wavy span {
+  position: relative;
+  display: inline-block;
+  color: #ff0077;
+  font-size: 2em;
+  text-transform: uppercase;
+  animation: animate 1.5s ease-in-out infinite;
+  animation-delay: calc(.1s * var(--i))
+}
+@keyframes animate {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+  40% {
+    transform: translateY(0px);
+  }
+}</style>
  
 
   
@@ -75,7 +99,26 @@
 
    			<div class="col-twelve">
 
-	   			<h5>Hello, World.</h5>
+	   			<div class="wavy">
+  <span style="--i:1;">H</span>
+  <span style="--i:2;">e</span>
+  <span style="--i:3;">l</span>
+  <span style="--i:4;">l</span>
+  <span style="--i:5;">o</span>
+  <span style="--i:6;"></span>
+  <span style="--i:7;"></span>
+  <span style="--i:8;">W</span>
+  <span style="--i:9;">O</span>
+  <span style="--i:10;">R</span>
+                    <span style="--i:11;">L</span>
+                    <span style="--i:12;">D</span>
+                    <span style="--i:13;">.</span>
+                    <span style="--i:14;">.</span>
+                    <span style="--i:15;">.</span>
+                    <span style="--i:16;">.</span>
+                    
+                    
+</div>
 	   			<h1>I'm Tanush Verma.</h1>
 
 	   			<p class="intro-position">
@@ -97,9 +140,9 @@
    	</div> <!-- /intro-content --> 
 
    	<ul class="intro-social"> 
-         <li><a href="https://ca.linkedin.com/in/tanush-verma"><i class="fa fa-linkedin-square" style="font-size:84px"></i></a></li>
-         <li><a href="https://github.com/TanushParkashVerma"><i class="fa fa-github" style="font-size:84px"></i></a></li>
-         <li><a href="mailto:tanush.parkash16@gmail.com"><i class="fa fa-envelope" style="font-size:84px"></i></a></li>
+         <li><a href="https://ca.linkedin.com/in/tanush-verma"><i class="fa fa-linkedin-square" style="font-size:80px"></i></a></li>
+         <li><a href="https://github.com/TanushParkashVerma"><i class="fa fa-github" style="font-size:80px"></i></a></li>
+         <li><a href="mailto:tanush.parkash16@gmail.com"><i class="fa fa-envelope" style="font-size:80px"></i></a></li>
         
         
       </ul> <!-- /intro-social -->      	
